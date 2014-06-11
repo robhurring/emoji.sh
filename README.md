@@ -4,6 +4,8 @@ This is a goofy little hack that reads a list of emoji's from OSX's special char
 
 Inside the `CharacterPalette.app` there is a sqlite database that has a ton of characters. I'm pulling a specific range which seems to have a large chunk of emojis. This is then spit out into an `export` format that your shell can then source.
 
+*Disclaimer:* You will probably never need this.
+
 ## Usage
 
 1. Clone this repo somewhere
@@ -13,7 +15,7 @@ Inside the `CharacterPalette.app` there is a sqlite database that has a ton of c
 
 You can then `source ~/.bashrc` and now you're ready to rock!
 
-To use an emoji in the terminal, simply `echo` it out: `echo OMG ITS A $EMOJI_CYCLONE`
+To use an emoji in the terminal, simply `echo` it out: `echo $EMOJI_BEER_MUG w00t!`
 
 ## Contributing
 
